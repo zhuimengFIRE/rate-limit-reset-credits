@@ -27,15 +27,15 @@ cd ~/.codex/skills/rate-limit-reset-credits
 git pull
 ```
 
-### 方式二：先 clone，再运行安装脚本
+### 方式二：使用 Codex 安装
 
-```bash
-git clone https://github.com/zhuimengFIRE/rate-limit-reset-credits.git
-cd rate-limit-reset-credits
-bash install.sh
+如果你正在使用 Codex，可以直接对 Codex 说：
+
+```text
+请安装 GitHub 仓库 https://github.com/zhuimengFIRE/rate-limit-reset-credits 里的 Codex Skill。
 ```
 
-安装脚本会复制当前仓库内容到：
+Codex 会将该 Skill 安装到你的本机 Skill 目录；如果 Codex 询问安装位置，使用默认位置或指定为：
 
 ```text
 ~/.codex/skills/rate-limit-reset-credits
