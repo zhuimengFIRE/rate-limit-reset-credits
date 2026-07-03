@@ -17,7 +17,7 @@
 
 ```bash
 mkdir -p ~/.codex/skills
-git clone https://github.com/zhuimengFIRE/codex-reset-count.git ~/.codex/skills/rate-limit-reset-credits
+git clone https://github.com/zhuimengFIRE/rate-limit-reset-credits.git ~/.codex/skills/rate-limit-reset-credits
 ```
 
 如果已经安装过，更新即可：
@@ -30,8 +30,8 @@ git pull
 ### 方式二：先 clone，再运行安装脚本
 
 ```bash
-git clone https://github.com/zhuimengFIRE/codex-reset-count.git
-cd codex-reset-count
+git clone https://github.com/zhuimengFIRE/rate-limit-reset-credits.git
+cd rate-limit-reset-credits
 bash install.sh
 ```
 
